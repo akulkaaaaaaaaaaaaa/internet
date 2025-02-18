@@ -1,0 +1,20 @@
+/* Загальні стилі */
+h2 {
+    color: grey;
+}
+
+.paragraph-1 {
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: red;
+}
+
+.paragraph-2 {
+    font-family: "Courier New", monospace;
+    color: pink;
+}
+
+.paragraph-3 {
+    font-family: Georgia, serif;
+    color: #a50808;
+}

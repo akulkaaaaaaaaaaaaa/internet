@@ -1,0 +1,85 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #007BFF;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+h2 {
+    color: #333;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+a.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+a.button:hover {
+    background-color: #218838;
+}
+
+/* Стилі для списків */
+ul, ol {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Стилі для визначень */
+dl {
+    margin-top: 15px;
+}
+
+dt {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+dd {
+    margin-left: 20px;
+    font-style: italic;
+    color: #555;
+}
+
+/* Секції */
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section + section {
+    margin-top: 30px;
+}

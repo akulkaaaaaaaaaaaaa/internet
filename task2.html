@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Списки</h1>
+        <nav>
+            <a href="flower.jpg" class="button">Перейти до лабораторної роботи № 1</a>
+            <a href="#mathematicians" class="button">Перейти до списку математиків</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2 id="mathematicians">Математики</h2>
+        <ul>
+            <li>Ісаак Ньютон</li>
+            <li>Карл Фрідріх Гаусс</li>
+            <li>Леонард Ейлер</li>
+            <li>П'єр-Симон Лаплас</li>
+            <li>Софія Ковалевська</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Інструкції: Зміна ім'я файлу в ОС Windows</h2>
+        <ol>
+            <li>Перейдіть до папки, де знаходиться файл.</li>
+            <li>Клацніть правою кнопкою миші на файл, який потрібно перейменувати.</li>
+            <li>Виберіть опцію "Перейменувати".</li>
+            <li>Введіть нове ім'я для файлу.</li>
+            <li>Натисніть клавішу <strong>Enter</strong> для збереження змін.</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Визначення в області хімії</h2>
+        <dl>
+            <dt>Молекула</dt>
+            <dd>Найменша частинка речовини, що зберігає всі її властивості.</dd>
+
+            <dt>Хімічна реакція</dt>
+            <dd>Процес перетворення одних хімічних речовин в інші.</dd>
+
+            <dt>Атом</dt>
+            <dd>Основна структурна одиниця хімічного елемента.</dd>
+        </dl>
+    </section>
+    <style>
+        ol {
+            list-style-type: decimal; /* арабські цифри для першого рівня */
+        }
+        ul {
+            list-style-type: lower-alpha; /* нижчі латинські літери для другого рівня */
+        }
+    </style>
+    <section>
+        <h2>Список 2-рівня</h2>
+        <ol>
+            <li>Перший пункт
+                <ul>
+                    <li>Підпункт 1</li>
+                    <li>Підпункт 2</li>
+                </ul>
+            </li>
+            <li>Другий пункт
+                <ul>
+                    <li>Підпункт 1</li>
+                    <li>Підпункт 2</li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+</body>
+</html>

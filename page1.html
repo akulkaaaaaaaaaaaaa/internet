@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Порада 1</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(120deg, #f3f4f6, #e0f7fa);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .quote-container {
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            padding: 30px;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .quote-container h1 {
+            font-size: 28px;
+            color: #37474F;
+            margin-bottom: 20px;
+        }
+
+        .quote-container p {
+            font-size: 20px;
+            font-style: italic;
+            color: #546E7A;
+            margin-bottom: 30px;
+        }
+
+        .quote-container .author {
+            font-size: 18px;
+            font-weight: bold;
+            color: #00796B;
+        }
+
+        .quote-container a {
+            text-decoration: none;
+            color: #ffffff;
+            background: #00796B;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+
+        .quote-container a:hover {
+            background: #004D40;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="quote-container">
+        <h1>Мудра порада</h1>
+        <p>"Людина без освіти, як ціль без стріли." – Григорій Сковорода</p>
+        <a href="kvitka.html">Назад до квітки</a>
+    </div>
+    
+</body>
+</html>
